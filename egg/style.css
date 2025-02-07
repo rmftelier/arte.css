@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.egg__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+ }
+ .egg {
+  width: 1rem;
+  height: 1rem;
+  background: rgba(255, 152, 0,1);
+  box-shadow: 
+    1rem -7rem  #000, 2rem -7rem #000, 3rem -7rem #000,
+    4rem -7rem #000, 0rem -6rem #000, 5rem -6rem #000,
+    -1rem -5rem #000, -2rem -5rem #000, 6rem -5rem #000,
+    -3rem -4rem #000, 1rem -4rem rgba(255, 235, 59,1), 2rem -4rem rgba(255, 235, 59,1),
+    3rem -4rem rgba(255, 235, 59,1), 6rem -4rem #000, -3rem -3rem #000,
+    0rem -3rem rgba(255, 235, 59,1), 1rem -3rem rgba(255, 235, 59,1), 2rem -3rem rgba(255, 235, 59,1),
+    3rem -3rem rgba(255, 235, 59,1), 4rem -3rem rgba(255, 235, 59,1), 7rem -3rem #000,
+    -4rem -2rem #000, -1rem -2rem rgba(255, 235, 59,1), 1rem -2rem #000,
+    2rem -2rem rgba(255, 235, 59,1), 4rem -2rem #000, 5rem -2rem rgba(255, 235, 59,1),
+    8rem -2rem #000, -5rem -1rem #000, -1rem -1rem rgba(255, 152, 0,1),
+    0rem -1rem #000, 1rem -1rem #000, 2rem -1rem rgba(255, 235, 59,1),
+    3rem -1rem #000, 4rem -1rem #000, 5rem -1rem rgba(255, 152, 0,1),
+    9rem -1rem #000, -5rem 0rem #000, 1rem 0rem rgba(255, 235, 59,1),
+    2rem 0rem rgba(255, 235, 59,1), 3rem 0rem rgba(255, 235, 59,1),
+    4rem 0rem rgba(255, 152, 0,1), 9rem 0rem #000, -4rem 1rem #000,
+    1rem 1rem rgba(255, 235, 59,1), 2rem 1rem rgba(255, 235, 59,1), 3rem 1rem rgba(255, 235, 59,1),
+    7rem 1rem #000, 8rem 1rem #000, -3rem 2rem #000,
+    6rem 2rem #000, -2rem 3rem #000, -1rem 3rem #000,
+    0rem 3rem #000, 5rem 3rem #000, 1rem 4rem #000,
+    5rem 4rem #000, 2rem 5rem #000, 3rem 5rem #000, 
+    4rem 5rem #000;
+  }

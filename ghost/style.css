@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.ghost__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+ }
+ .ghost {
+  width: 1rem;
+  height: 1rem;
+  animation: moveUpDown 2s infinite;
+  box-shadow: 
+    -1rem -7rem  #000, 0 -7rem  #000, 1rem -7rem #000, /*1ª linha*/
+    2rem -7rem  #000, 3rem -7rem  #000, 4rem -7rem #000,  /*2ª linha*/
+    -2rem -6rem #000, 3rem -6rem #000, -3rem -5rem #000, /* o último é da 3ª linha */
+    3rem -5rem #000, -3rem -4rem #000, -1rem -4rem #000,
+    1rem -4rem #000, 4rem -4rem #000, -3rem -3rem #000, 
+    4rem -3rem #000, -5rem -2rem #000, -4rem -2rem #000,
+    -6rem -2rem #000, -1rem -2rem #000, 0rem -2rem #000,
+    1rem -2rem #000, 5rem -2rem #000, 6rem -2rem #000,
+    7rem -2rem #000,  -6rem -1rem #000, 7rem -1rem #000,
+    -5rem 0rem #000, 6rem 0rem #000, -4rem 1rem #000,
+    5rem 1rem #000, -4rem 2rem #000, 4rem 2rem #000,
+    -4rem 3rem #000, 4rem 3rem #000, -3rem 4rem #000, 
+    4rem 4rem #000, -2rem 5rem #000, 3rem 5rem #000,
+    -1rem 6rem #000, 0rem 6rem #000, 3rem 6rem #000,
+    1rem 7rem #000, 2rem 7rem #000, 3rem 7rem #000,
+    4rem 7rem #000;
+  }
+
+  /* adding a little animation */
+  @keyframes moveUpDown {
+     0% {
+       transform: translateY(0);
+     }
+
+     50%{
+        transform: translateY(-10px);
+     }
+
+     100%{
+      transform: translateY(0);
+     }
+  }
